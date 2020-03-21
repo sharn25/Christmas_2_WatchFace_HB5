@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A013" y="0" label="layer 12 - BG" x="0" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_BACKGROUND" type="static" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A012" y="39" label="layer 11 - Hour_High" x="4" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" data_type="DATA_HOUR_HIGH" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A011" y="39" label="layer 10 - Hour_Low" x="28" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" data_type="DATA_HOUR_LOW" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A010" y="50" label="layer 9 - Time_sperator" x="53" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_TIME_SEPAR" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A009" y="39" label="layer 8 - Mintue_High" x="94" align="DIGIT_ALIGN_CENTER_RIGHT" number_of_digits="0" data_type="DATA_MINITE_HIGH" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A008" y="39" label="layer 7 - Mintue_Low" x="87" align="DIGIT_ALIGN_CENTER_LEFT" number_of_digits="0" data_type="DATA_MINITE_LOW" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage offset_distance_y="0" res_dir_id="A007" y="121" label="layer 6 - Date" x="87" align="DIGIT_ALIGN_CENTER_RIGHT" number_of_digits="0" data_type="DATA_DATE" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage res_dir_id="A006" default_language="en" y="125" label="layer 5 - Month" single_language_img_num="7" x="86" align="DIGIT_ALIGN_CENTER_LEFT" support_languages="en" data_type="DATA_MONTH_EN" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A005" y="37" label="layer 4 - AM_PM" x="61" align="DIGIT_ALIGN_CENTER_CENTER" data_type="DATA_AMPM" type="static" filter_color="63488"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A004" y="1" label="layer 3 - battery" x="101" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_BATTERY" type="static" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget offset_distance_y="0" res_dir_id="A001" internal_position="DIGIT_ALIGN_CENTER_LEFT" y="0" data_type2="DATA_DISTURB" label="layer 2 - MultiWidget" x="0" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_BLUETOOTH_STATUS" type="static" data_type1="DATA_UNREADMSG_STATE" filter_color="65535" mutil_widget_count="3"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget offset_distance_y="0" res_dir_id="A002" internal_position="DIGIT_ALIGN_CENTER_CENTER" y="0" data_type2="DATA_DISTURB" x="0" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_UNREADMSG_STATE" type="static" data_type1="DATA_BLUETOOTH_STATUS" filter_color="65535" mutil_widget_count="3"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget offset_distance_y="0" res_dir_id="A003" internal_position="DIGIT_ALIGN_CENTER_RIGHT" y="0" data_type2="DATA_UNREADMSG_STATE" x="0" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_DISTURB" type="static" data_type1="DATA_BLUETOOTH_STATUS" filter_color="65535" mutil_widget_count="3"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage offset_distance_y="0" res_dir_id="A000" y="142" label="layer 1 - Static image" x="86" align="DIGIT_ALIGN_CENTER_LEFT" data_type="DATA_SEPAR" type="static" filter_color="0"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
